@@ -1,0 +1,98 @@
+ * {
+     background-color: antiquewhite;
+ }
+
+ /* KEY-Frames:------------------ */
+ .keyframes {
+     width: 400px;
+     height: 100px;
+     background-color: rgb(67, 194, 194);
+
+     /* Animation -Name:--------------- */
+     animation-name: demo;
+
+     /* Animation duration is always define beacuse default is "0":----------- */
+     animation-duration: 2s;
+
+     /* Animation delay :---------------- */
+     animation-delay: 2s;
+
+     /* Animation-iteration -count:--------------- */
+     animation-iteration-count: 2;
+
+     /* Animation-direction: [normal, reverse, alternate( forwards first, then backwards), 
+            alternate-reverse(played backwards first, then forwards)-------------- */
+     animation-direction: alternate-reverse;
+
+     /* Animation-timing-function: (ease, linear, ease-in, ease-out, ease-in-out---------------- */
+     animation-timing-function: ease-in-out;
+ }
+
+ @keyframes demo {
+     /* from {
+                border-radius: 0%;
+                width: 400px;
+                height: 100px;
+                background-color: rgb(67, 194, 194);
+            }
+
+            to {
+                border-radius: 50%;
+                height: 100px;
+                background-color: rgb(226, 154, 67);
+                width: 500px;
+            } */
+
+     /* OR */
+
+     0% {
+         background-color: pink;
+     }
+
+     20% {
+         background-color: coral;
+     }
+
+     40% {
+         background-color: darkblue;
+     }
+
+     60% {
+         background-color: darkkhaki;
+     }
+
+     80% {
+         background-color: forestgreen;
+     }
+
+     100% {
+         background-color: green;
+         border-radius: 50%;
+         margin-left: 35%;
+     }
+ }
+
+ /* SHORTHAND PROPERTY:------------------------------------- */
+ .first {
+     width: 400px;
+     height: 100px;
+     background-color: rgb(67, 194, 194);
+     animation: first 3s ease-in 1s 2 reverse;
+ }
+
+ @keyframes first {
+     from {
+         border-radius: 0%;
+         width: 400px;
+         height: 100px;
+         background-color: rgb(67, 194, 194);
+     }
+
+     to {
+         border-radius: 50%;
+         height: 100px;
+         background-color: rgb(226, 67, 202);
+         width: 500px;
+         margin-left: 35%;
+     }
+ }
