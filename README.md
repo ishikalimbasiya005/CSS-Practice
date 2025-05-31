@@ -6,14 +6,14 @@ Welcome to my **CSS Practice** repository! This repo is dedicated to practicing 
 
 Each folder in this repository represents a specific concept or project related to CSS Like This:
 
-/animation → Practice for CSS animations and transitions
-/background-property → Background color, image, position, repeat, etc.
-/border-property → Border styles, radius, width, shorthand, etc.
-/z-index → Stacking order, position relations
-/pseudo-element → ::before, ::after and other pseudo-elements
-/pseudo-classes → :hover, :active, :nth-child, etc.
-/opacity → Opacity effects, transparency
-/scroller-bar → Custom scrollbar styling examples
+- `/animation` → Practice for CSS animations and transitions  
+- `/background-property` → Background color, image, position, repeat, etc.  
+- `/border-property` → Border styles, radius, width, shorthand, etc.  
+- `/z-index` → Stacking order, position relations  
+- `/pseudo-element` → `::before`, `::after` and other pseudo-elements  
+- `/pseudo-classes` → `:hover`, `:active`, `:nth-child`, etc.  
+- `/opacity` → Opacity effects, transparency, layering  
+- `/scroller-bar` → Custom scrollbar styling examples  
 
 
 ## 💡 Purpose
