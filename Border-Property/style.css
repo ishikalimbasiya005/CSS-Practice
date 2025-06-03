@@ -1,0 +1,107 @@
+ * {
+     background-color: azure;
+ }
+
+ /* border styles: */
+ .Dotted {
+     border-style: dotted;
+ }
+
+ .Dashed {
+     border-style: Dashed;
+ }
+
+ .Solid {
+     border-style: Solid;
+ }
+
+ .Double {
+     border-style: Double;
+ }
+
+ .Groove {
+     border-style: Groove;
+ }
+
+ .Ridge {
+     border-style: Ridge;
+ }
+
+ .inset {
+     border-style: inset;
+ }
+
+ .Outset {
+     border-style: Outset;
+ }
+
+ .None {
+     border-style: None;
+ }
+
+ .Hidden {
+     border-style: Hidden;
+ }
+
+ .Mixed {
+     border-top-style: dotted;
+     border-bottom-style: solid;
+     border-left-style: groove;
+     border-right-style: dashed;
+ }
+
+ /* border width: */
+ .first {
+     border-style: solid;
+     border-width: 1px;
+ }
+
+ .second {
+     border-style: solid;
+     border-width: 2px;
+ }
+
+ .third {
+     border-style: solid;
+     border-width: 3px;
+ }
+
+ .forth {
+     border-style: solid;
+     border-width: 4px;
+ }
+
+ .fifth {
+     border-style: solid;
+     border-width: 5px;
+ }
+
+ /* Border Color:- */
+ .color {
+     border-style: solid;
+     border-top-color: rgb(218, 192, 255);
+     border-bottom-color: rgb(225, 18, 53);
+     border-left-color: rgb(227, 255, 192);
+     border-right-color: rgb(20, 245, 163);
+ }
+
+ /* shothand border:- */
+ .shothand {
+     /* 1]width 2]style 3]color */
+     border: 5px dotted rgb(215, 9, 157);
+ }
+
+ /* Border sides:- */
+ .left {
+     border-left: 10px solid rgb(224, 78, 5);
+ }
+
+ .right {
+     border-right: 10px solid rgb(224, 78, 5);
+ }
+
+ /* rounded property */
+ .rounded {
+     border: 2px solid red;
+     border-radius: 5px;
+ }
