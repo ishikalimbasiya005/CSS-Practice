@@ -38,7 +38,7 @@ While this repo is mostly for my personal practice, if you are also learning CSS
 If you find this useful or want to collaborate, feel free to connect:
 
 - 🌐 GitHub: https://github.com/ishikalimbasiya005
-- 💼 LinkedIn: ISHIKA LIMBASIYA 
+- 💼 LinkedIn: www.linkedin.com/in/ishikalimbasiya
 
 ---
 
