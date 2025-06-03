@@ -1,0 +1,49 @@
+  /* background color property  */
+  h3 {
+      background-color: lightgreen;
+      /* OR  */
+      /* background-color:#64bc8c; */
+      /* OR */
+      /* background-color:rgb(173, 87, 173); */
+      padding: 50px;
+  }
+
+  /* background img property  */
+  .img {
+      background-image: url("https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=");
+      width: 400px;
+      height: 500px;
+      color: black;
+      font-size: 30px;
+  }
+
+  /* background repeat property(repeat, repeat-x[horizontal] , repeat-y[vertical] , no-repeat) */
+  .repeat {
+      background-repeat: repeat;
+      background-image: url("https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=");
+      height: 200px;
+      color: black;
+      font-size: 30px;
+  }
+
+  /* background attachment property (scroll & fixed)*/
+  .attachment {
+      background-attachment: fixed;
+      background-image: url("https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=");
+      color: #fff;
+  }
+
+  /* background position property (text [e.x=left bottom, right top] \ percentage[e.x=0% 100%] )*/
+  .position {
+      background-position: left;
+      background-image: url("https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=");
+      color: #fff;
+  }
+
+  /* background size property (cover & contain) */
+  .size {
+      background-size: contain;
+      background-image: url("https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=");
+      color: #fff;
+      height: 500px;
+  }
