@@ -1,0 +1,21 @@
+* {
+    background-color: aquamarine;
+}
+
+.content {
+    width: 500px;
+    height: 100px;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+    /* box-sizing: content-box; */
+}
+
+.border {
+    width: 500px;
+    height: 100px;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
