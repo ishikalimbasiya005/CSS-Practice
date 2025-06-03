@@ -1,0 +1,29 @@
+ * {
+     background-color: azure;
+ }
+
+ .shadow {
+     /* 1]h-offset 2]v-offset 3] blur 4] spread 5]color 6]inset */
+     box-shadow: 10px 5px 5px 5px pink;
+     border: 1px solid;
+     height: 50px;
+     text-align: center;
+ }
+
+ .h-v {
+     box-shadow: 5px 5px green;
+     border: 1px solid;
+ }
+
+ .blur {
+     box-shadow: 5px 5px 10px yellow;
+     border: 1px solid;
+ }
+
+ .spread {
+     box-shadow: 5px 5px 0px 10px blue;
+ }
+
+ .inset {
+     box-shadow: 5px 5px 5px 5px rgb(255, 89, 0) inset;
+ }
