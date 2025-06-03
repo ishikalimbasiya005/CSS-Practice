@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 1] None property:------------- -->
+    <h1 style="color: palevioletred; text-align: center;"> 1] None property:-</h1>
+    <a href="#"> Click Now
+        <p class="none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus placeat magni
+            aperiam tempora. Error quis voluptatum suscipit aut, cum earum labore voluptatibus mollitia, consequuntur
+            voluptas incidunt ipsum exercitationem hic!</p>
+    </a>
+    <br><br><br><br><br><br>
+    <hr>
+
+
+    <!-- 2] Inline property:------------------- -->
+    <h1 style="color: palevioletred; text-align: center;"> 2] Inline property:-</h1>
+    <!-- Does not proper work padding, margin,border, width and height ..... -->
+    <!-- INLINE ELEMENTS:-[strong, span, img, br, a ,i, input ] -->
+    <p class="inline">INLINE ELEMNTS.....[Use P ..] Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+        doloribus
+        placeat magni
+    <h3 style="color: red;">[Use h3..] aperiam tempora. Error quis voluptatum suscipit aut,</h3> cum earum labore
+    voluptatibus
+    mollitia, consequuntur
+    voluptas incidunt ipsum exercitationem hic!</p>
+    <br>
+    <hr>
+
+
+    <!-- 3] Block property:------------------- -->
+    <h1 style="color: palevioletred; text-align: center;">3] Block property:-</h1>
+    <!-- Block ELEMENTS:-[p,h1-h6, ol,ul,li,header,footer,div] -->
+    <strong>BLOCK LEVEL PROPERTY.....[ Use strong..] <span class="block">[ Use span..] Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Enim
+            exercitationem repudiandae optio suscipit deleniti. Fugit perspiciatis ea animi saepe aspernatur illum,
+            earum quaerat libero. Modi eum quae sunt iste labore?</span> </strong>
+    <br>
+    <hr>
+
+
+    <!-- 4] Inline-Block property:------------------- -->
+    <h1 style="color: palevioletred; text-align: center;">4] Inline-Block property:-</h1>
+    <!-- work with properly width ,height, padding, margin..... not border -->
+    <!-- Block ELEMENTS:-[p,h1-h6, ol,ul,li,header,footer,div] -->
+    <strong class="inline-block">INLINE-BLOCK LEVEL PROPERTY.....[ Use strong..] <span class="inline-block">[ Use
+            span..] Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Enim
+            exercitationem repudiandae optio suscipit deleniti. Fugit perspiciatis ea animi saepe aspernatur illum,
+            earum quaerat libero. Modi eum quae sunt iste labore?</span> </strong>
+    <br>
+    <hr>
+
+
+    <!-- 5] Flex-property:---------------------------- -->
+    <h1 style="color: palevioletred; text-align: center;">5] Flex property:-</h1>
+
+    <h2 style="color: rgb(139, 0, 139);">[i] Flex-direction (row, row-reverse, column, column-reverse):----</h2>
+    <div class="direction">
+        <div class="direction-1">
+            <h2 class="color"> One</h2>
+            <h2 class="color">Two</h2>
+            <h2 class="color">Three</h2>
+        </div>
+        <div class="direction-2">
+            <h2 class="color">One</h2>
+            <h2 class="color">Two</h2>
+            <h2 class="color">Three</h2>
+        </div>
+        <div class="direction-3">
+            <h2 class="color">One</h2>
+            <h2 class="color">Two</h2>
+            <h2 class="color">Three</h2>
+        </div>
+        <div class="direction-4">
+            <h2 class="color">One</h2>
+            <h2 class="color">Two</h2>
+            <h2 class="color">Three</h2>
+        </div>
+    </div><br><br>
+
+    <h2 style="color: rgb(139, 0, 139);">[i] Flex-Wrap (wrap , no-wrap, wrap-reverse):----</h2>
+    <div class="wrap">
+        <div class="wrap-1">One</div>
+        <div class="wrap-2">Two</div>
+        <div class="wrap-3">Three</div>
+        <div class="wrap-4">Four</div>
+    </div>
+
+    <div class="wrap-reverse">
+        <div class="wrap-1">One</div>
+        <div class="wrap-2">Two</div>
+        <div class="wrap-3">Three</div>
+        <div class="wrap-4">Four</div>
+    </div><br><br><br>
+
+
+    <h2 style="color: rgb(139, 0, 139);">[i] Flex-flow (Shor-hand property:-direction & wrap):----</h2>
+    <div class="flow">
+        <div class="flow-1">One</div>
+        <div class="flow-2">Two</div>
+        <div class="flow-3">Three</div>
+        <div class="flow-4">Four</div>
+    </div><br><br><br>
+
+    <h2 style="color: rgb(139, 0, 139);">[i] Justify-content (center,flex-start(this is default), flex-end,
+        space-around, space-between):----</h2>
+    <div class="content-center">
+        <div class="content-1">One</div>
+        <div class="content-2">Two</div>
+        <div class="content-3">Three</div>
+        <div class="content-4">Four</div>
+    </div>
+    <div class="content-flex-start">
+        <div class="content-1">One</div>
+        <div class="content-2">Two</div>
+        <div class="content-3">Three</div>
+        <div class="content-4">Four</div>
+    </div>
+    <div class="content-flex-end">
+        <div class="content-1">One</div>
+        <div class="content-2">Two</div>
+        <div class="content-3">Three</div>
+        <div class="content-4">Four</div>
+    </div>
+    <div class="content-space-around">
+        <div class="content-1">One</div>
+        <div class="content-2">Two</div>
+        <div class="content-3">Three</div>
+        <div class="content-4">Four</div>
+    </div>
+    <div class="content-spece-between">
+        <div class="content-1">One</div>
+        <div class="content-2">Two</div>
+        <div class="content-3">Three</div>
+        <div class="content-4">Four</div>
+    </div><br><br><br>
+
+
+    <h2 style="color: rgb(139, 0, 139);">[i] Align-items (center,flex-start, flex-end,stretch (this is default)
+        --Vertical):-
+        <div class="align-center">
+            <div class="center-1">One</div>
+            <div class="center-2">Two</div>
+            <div class="center-3">Three</div>
+            <div class="center-4">Four</div>
+        </div>
+        <div class="align-flex-start">
+            <div class="center-1">One</div>
+            <div class="center-2">Two</div>
+            <div class="center-3">Three</div>
+            <div class="center-4">Four</div>
+        </div>
+        <div class="align-flex-end">
+            <div class="center-1">One</div>
+            <div class="center-2">Two</div>
+            <div class="center-3">Three</div>
+            <div class="center-4">Four</div>
+        </div>
+        <div class="flex-stretch">
+            <div class="center-1">One</div>
+            <div class="center-2">Two</div>
+            <div class="center-3">Three</div>
+            <div class="center-4">Four</div>
+        </div>
+        <br><br><br>
+
+
+        <h2 style="color: rgb(139, 0, 139);">[i] Align-content (center,flex-start, flex-end,stretch (this is default)
+            --Horizontal):-
+            <div class="content-center">
+                <div class="center-1">One</div>
+                <div class="center-2">Two</div>
+                <div class="center-3">Three</div>
+                <div class="center-4">Four</div>
+            </div>
+            <div class="content-flex-start">
+                <div class="center-1">One</div>
+                <div class="center-2">Two</div>
+                <div class="center-3">Three</div>
+                <div class="center-4">Four</div>
+            </div>
+            <div class="content-flex-end">
+                <div class="center-1">One</div>
+                <div class="center-2">Two</div>
+                <div class="center-3">Three</div>
+                <div class="center-4">Four</div>
+            </div>
+            <div class="content-stretch">
+                <div class="center-1">One</div>
+                <div class="center-2">Two</div>
+                <div class="center-3">Three</div>
+                <div class="center-4">Four</div>
+            </div>
+            <br><br><br>
+</body>
+
+</html>
