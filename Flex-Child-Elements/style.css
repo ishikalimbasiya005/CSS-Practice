@@ -1,0 +1,88 @@
+ * {
+     background-color: aqua;
+ }
+
+ /* Order :----- */
+ .order {
+     background-color: darkseagreen;
+     display: flex;
+ }
+
+ .order-1 {
+     background-color: lightgrey;
+     color: #fff;
+     width: 100px;
+     height: 50px;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ /* Grow:----- */
+ .Grow {
+     background-color: darkseagreen;
+     display: flex;
+ }
+
+ .Grow-1 {
+     background-color: lightgrey;
+     color: #fff;
+     width: 100px;
+     height: 50px;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ /* Shrink:----- */
+ .shrink {
+     background-color: darkseagreen;
+     display: flex;
+ }
+
+ .shrink-1 {
+     background-color: lightgrey;
+     color: #fff;
+     padding: 20px;
+     margin: 20px;
+     width: 300px;
+ }
+
+
+ .Basis {
+     background-color: darkseagreen;
+     display: flex;
+ }
+
+ .Basis-1 {
+     background-color: lightgrey;
+     color: #fff;
+     padding: 20px;
+     margin: 20px;
+     width: 300px;
+ }
+
+ .Flex {
+     background-color: darkseagreen;
+     display: flex;
+ }
+
+ .Flex-1 {
+     background-color: lightgrey;
+     color: #fff;
+     padding: 20px;
+     margin: 20px;
+     width: 300px;
+ }
+
+ .Align-self {
+     background-color: darkseagreen;
+     display: flex;
+     height: 500px;
+ }
+
+ .Align-self-1 {
+     background-color: lightgrey;
+     color: #fff;
+     padding: 20px;
+     margin: 20px;
+     width: 300px;
+ }
