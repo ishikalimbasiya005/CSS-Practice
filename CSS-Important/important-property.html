@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        * {
+            background-color: beige;
+        }
+
+        /* 1] example:----- */
+        .div1 {
+            color: red;
+            background-color: aquamarine;
+        }
+
+        .div2 {
+            color: green;
+            background-color: darkcyan;
+        }
+
+        h3,
+        h2 {
+            color: rgb(99, 30, 210) !important;
+            background-color: rgb(169, 220, 120) !important;
+        }
+
+        /* 2] example:----- */
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+
+        div {
+            color: chocolate !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- you can use <div> tag so, allow parent <div> -->
+    <!-- you can write any other tag's like, [H1,H2,p..... ] so, we can write tag name in style -->
+    <h1 style="color: cadetblue; text-align: center;">Important Property:-------</h1>
+    <h3 class="div1">This is red color.....</h3>
+    <h2 class="div2">This is green color.....</h2>
+    <br>
+    <hr>
+
+    <div>
+        <div class="red">This is red color.....</div>
+        <div class="green">This is green color.....</div>
+    </div>
+</body>
+
+</html>
