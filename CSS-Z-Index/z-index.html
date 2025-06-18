@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        * {
+            background-color: rgb(157, 239, 239);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .img {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            color: #fff;
+            margin-left: 30%;
+        }
+
+        p {
+            position: absolute;
+            top: 0;
+            /* z-index = 1(front) OR -1(back)  */
+            z-index: 1;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- it works with the POSITIONS (static, fixed, sticky, relative, absolute, child with flex.....) -->
+    <h1 style="color: rgb(222, 11, 116); text-align: center;">Z-INDEX:-</h1>
+    <hr>
+
+    <div class="img">
+        <img src="Assets/photo-1515041219749-89347f83291a.jpg" alt="img">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam consectetur corrupti aspernatur ipsa
+            architecto tempore molestiae rerum distinctio quia animi maxime odio perferendis eius veritatis
+            excepturi totam reprehenderit, quae illum ipsam facilis ex, nobis, aliquam repellat. Commodi quibusdam
+            in, labore, quasi ipsum totam sunt unde dicta deserunt, quidem harum. Ex?</p>
+    </div>
+</body>
+
+</html>
