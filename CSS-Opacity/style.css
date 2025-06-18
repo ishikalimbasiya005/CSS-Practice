@@ -1,0 +1,53 @@
+ * {
+     background-color: antiquewhite;
+ }
+
+ /* 0:--["no display anything" ] , 1:--["fully display"]*/
+
+ /* opacity:--- */
+ .first {
+     opacity: 0.1;
+     background-color: rgb(76, 175, 80);
+ }
+
+ .second {
+     opacity: 0.2;
+     background-color: rgb(76, 175, 80);
+ }
+
+ .third {
+     opacity: 0.3;
+     background-color: rgb(76, 175, 80);
+ }
+
+ .forth {
+     opacity: 0.4;
+     background-color: rgb(76, 175, 80);
+ }
+
+ .fifth {
+     opacity: 0.5;
+     background-color: rgb(76, 175, 80);
+ }
+
+
+ /* RGBA:--- */
+ .firsts {
+     background-color: rgba(76, 175, 80, 0.1);
+ }
+
+ .seconds {
+     background-color: rgba(76, 175, 80, 0.2);
+ }
+
+ .thirds {
+     background-color: rgba(76, 175, 80, 0.3);
+ }
+
+ .forths {
+     background-color: rgba(76, 175, 80, 0.4);
+ }
+
+ .fifths {
+     background-color: rgba(76, 175, 80, 0.5);
+ }
