@@ -46,11 +46,5 @@ Shows circular color blending around a central point.
 - `at` position for gradient origin
 - `repeating-conic-gradient()` with color repetition
 
-## 🚀 How to Run
-
-1. Download or clone the repository.
-2. Open `index.html` in any web browser.
-3. Scroll to view examples of each gradient type.
-
 ---
 
