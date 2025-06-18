@@ -1,0 +1,126 @@
+* {
+    background-color: rgb(167, 206, 111);
+}
+
+/* transition property:---- */
+.property {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    transition-property: all;
+}
+
+.property:hover {
+    background-color: rgb(87, 197, 197);
+    width: 500px;
+    color: purple;
+    font-size: 30px;
+}
+
+/* transition property:--- */
+.duration {
+    width: 150px;
+    height: 50px;
+    background-color: cyan;
+    transition-duration: 2s;
+}
+
+.duration:hover {
+    width: 500px;
+    background-color: fuchsia;
+}
+
+/* transition timing function:--- */
+div {
+    width: 150px;
+    transition: 2s;
+}
+
+.ease {
+    transition-timing-function: ease;
+    width: 150px;
+    background-color: rgb(230, 81, 101);
+    color: #fff;
+}
+
+.ease:hover {
+    width: 300px;
+    background-color: green;
+}
+
+.linear {
+    transition-timing-function: linear;
+    width: 150px;
+    background-color: rgb(230, 81, 101);
+    color: #fff;
+}
+
+.linear:hover {
+    width: 300px;
+    background-color: green;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+    width: 150px;
+    background-color: rgb(230, 81, 101);
+    color: #fff;
+}
+
+.ease-in:hover {
+    width: 300px;
+    background-color: green;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+    width: 150px;
+    background-color: rgb(230, 81, 101);
+    color: #fff;
+}
+
+.ease-out:hover {
+    width: 300px;
+    background-color: green;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+    width: 150px;
+    background-color: rgb(230, 81, 101);
+    color: #fff;
+}
+
+.ease-in-out:hover {
+    width: 300px;
+    background-color: green;
+}
+
+/* transiton delay function:- */
+.delay {
+    width: 150px;
+    height: 50px;
+    background-color: cadetblue;
+    color: #fff;
+    transition-delay: 2s;
+}
+
+.delay:hover {
+    width: 300px;
+    background-color: aquamarine;
+}
+
+/* transition shorthand property:- */
+.shothand {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(110, 160, 95);
+    color: #fff;
+    transition: all 5s ease-in-out .2s;
+}
+
+.shothand:hover {
+    width: 300px;
+    background-color: rgb(109, 95, 160);
+}
