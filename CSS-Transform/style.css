@@ -1,0 +1,70 @@
+ * {
+     background-color: rgb(204, 192, 225);
+ }
+
+ /* translate method */
+ .translate {
+     background-color: rgb(186, 90, 186);
+     width: 100px;
+     height: 120px;
+     margin-left: 560px;
+     transition-duration: 2s;
+ }
+
+ .translate:hover {
+     /* 1 value is :-[x-horizontal] 2 value is :-[vertical] */
+     width: 200px;
+     height: 150px;
+     font-size: 20px;
+     background-color: rgb(230, 70, 96);
+     transform: translate(50px, 20px);
+ }
+
+ /* rotate method */
+ .rotate {
+     background-color: rgb(17, 230, 230);
+     width: 100px;
+     height: 120px;
+     margin-left: 560px;
+     transition-duration: 2s;
+
+ }
+
+ .rotate:hover {
+     width: 200px;
+     background-color: burlywood;
+     transform: rotate(20deg);
+     border-radius: 20px;
+ }
+
+ /* scale method */
+ .Scale {
+     background-color: rgb(17, 230, 67);
+     width: 100px;
+     height: 120px;
+     margin-left: 560px;
+     transition-duration: 2s;
+ }
+
+ .Scale:hover {
+     /* 1 value is:-[width] , 2 value is :-[height] */
+     width: 200px;
+     background-color: rgb(135, 196, 222);
+     transform: Scale(2, 1);
+ }
+
+ /* skew method */
+ .Skew {
+     background-color: rgb(230, 17, 205);
+     width: 100px;
+     height: 120px;
+     margin-left: 560px;
+     transition-duration: 2s;
+ }
+
+ .Skew:hover {
+     width: 200px;
+     font-size: 25px;
+     background-color: rgb(191, 244, 77);
+     transform: skew(50deg, 10deg);
+ }
