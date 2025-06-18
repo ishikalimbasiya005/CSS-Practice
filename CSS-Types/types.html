@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- External css: -->
+    <link rel="stylesheet" href="Style/style.css">
+
+    <!-- Inline css: -->
+    <style>
+        div {
+            background-color: rgb(10, 231, 135);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: rgb(10, 231, 135);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Type of CSS</div>
+    <!-- If three types of CSS are used together, the one with the highest priority will be applied first.
+If you want to use only one type, comment out the others (like inline CSS). -->
+
+    <!-- This is "Inline css::" -->
+    <h1 style="color: red; text-align: center;">This is Inline css!</h1>
+
+
+    <!-- This is "Internal css::" -->
+    <h1>This is Internal css!</h1>
+
+
+    <!-- This is External css:: -->
+    <h3>This is External css!</h3>
+</body>
+
+</html>
