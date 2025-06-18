@@ -1,0 +1,64 @@
+* {
+    background-color: aqua;
+}
+
+/* firast letter element:- */
+.latter::first-letter {
+    font-size: 40px;
+    color: rgb(252, 113, 0);
+    text-decoration: underline;
+    padding: 2px;
+}
+
+/* first line element:- */
+.line::first-line {
+    color: darkorchid;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    background-color: darksalmon;
+}
+
+/* multiple pseudo element:- */
+.multiple::first-letter {
+    color: limegreen;
+    font-size: 40px;
+}
+
+.multiple::first-line {
+    color: deeppink;
+    font-size: 20px;
+}
+
+/* selection element:- */
+.selection::selection {
+    color: mediumvioletred;
+    background-color: plum;
+}
+
+/* marker pseudo element:- */
+::marker {
+    color: olivedrab;
+    font-size: 30px;
+}
+
+/* before pseudo element:- */
+.before::before {
+    /* content: url("../accests/pngtree-yellow-smiley-face-png-image_960884.jpg"); */
+    /* OR */
+    /* content: "\f118";
+            font-family: "font awesome 6 free";
+            font-weight: 700; */
+    /* OR */
+    content: "HELLO ";
+}
+
+/* after pseudo element:- */
+.after::after {
+    /* content: url("../accests/pngtree-yellow-smiley-face-png-image_960884.jpg"); */
+    /* OR */
+    /* content: "\f118";
+            font-family: "font awesome 6 free";
+            font-weight: 700; */
+    /* OR */
+    content: "HELLO ";
+}
