@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- this is apply ,with <div> tag, without <div> this is not apply -->
+    <!-- 1] first child pseudo classes:-------------- -->
+    <h1 style="color: darkturquoise; text-align: center;">First Child Pseudo Classes:-</h1>
+    <div>
+        <h2 class="first">This is First child classes..... </h2>
+        <h2 class="first">This is First child classes..... </h2>
+        <h2 class="first">This is First child classes..... </h2>
+        <h2 class="first">This is First child classes..... </h2>
+    </div>
+    <br>
+    <hr>
+
+    <!-- 2] Last child pseudo classes:----------------- -->
+    <h1 style="color: darkturquoise; text-align: center;">Last Child Pseudo Classes:-</h1>
+    <div>
+        <h2 class="last">This is last child classes..... </h2>
+        <h2 class="last">This is last child classes..... </h2>
+        <h2 class="last">This is last child classes..... </h2>
+        <h2 class="last">This is last child classes..... </h2>
+    </div>
+    <br>
+    <hr>
+
+    <!-- 3] nth child classes:--------------------------------- -->
+    <h1 style="color: darkturquoise; text-align: center;">NTH Child Pseudo Classes:-</h1>
+    <div>
+        <h2 class="nth">This is nth child classes..... </h2>
+        <h2 class="nth">This is nth child classes..... </h2>
+        <h2 class="nth">This is nth child classes..... </h2>
+        <h2 class="nth">This is nth child classes..... </h2>
+        <ul>
+            <li>ONE</li>
+            <li>TWO</li>
+            <li>THREE</li>
+        </ul>
+    </div>
+    <br>
+    <hr>
+
+    <!--4]  Anchor pseudo classes:----------------------------- -->
+    <h1 style="color: darkturquoise; text-align: center;">Anchor Pseudo Classes:-</h1>
+    <div>
+        <a href="#">Unvisited link [not click]</a><br>
+        <a href="#">Visited link [click]</a><br>
+        <a href="#">Mouse Over link[hover]</a><br>
+        <a href="#">Selected link[clickable]</a><br>
+    </div>
+    <br>
+    <hr>
+
+    <!-- 5] focus classes:---------------------------------- -->
+    <h1 style="color: darkturquoise; text-align: center;">Focus Pseudo Classes:-</h1>
+    <form action="#">
+        First Name:<input type="text" name="fname"><br><br>
+        Last Name:<input type="text" name="lname"><br>
+    </form>
+    <br><br>
+
+</body>
+
+</html>

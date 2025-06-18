@@ -1,0 +1,47 @@
+* {
+    background-color: moccasin;
+}
+
+/* first child classes:- */
+.first:first-child {
+    color: rgb(141, 15, 225);
+}
+
+/* second child classes:- */
+.last:last-child {
+    color: rgb(13, 219, 57);
+}
+
+/* nth child classes:- */
+.nth:nth-child(3) {
+    color: rgb(213, 157, 52);
+    background-color: indianred;
+}
+
+li:nth-child(2) {
+    color: rgb(237, 16, 31);
+}
+
+/* Anchor classes:- */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* focus classes:- */
+input:focus {
+    background-color: pink;
+    color: chocolate;
+    border: 1px solid black;
+}
