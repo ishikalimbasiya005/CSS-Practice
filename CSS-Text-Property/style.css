@@ -1,0 +1,100 @@
+ /* color property:-(color or hexa-color::serch-"hexa color codes")*/
+ h1 {
+     color: #fa3a00;
+ }
+
+ /* text-align property:-(left,right,center,justify) */
+ .align {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0;
+     margin: 0;
+     color: darkolivegreen;
+ }
+
+ .first {
+     text-align: left;
+     width: 25%;
+     border: 2px solid black;
+     box-sizing: border-box;
+ }
+
+ .second {
+     text-align: center;
+     width: 25%;
+     border: 2px solid black;
+     box-sizing: border-box;
+ }
+
+ .third {
+     text-align: right;
+     width: 25%;
+     border: 2px solid black;
+     box-sizing: border-box;
+ }
+
+ .fourth {
+     text-align: justify;
+     width: 25%;
+     border: 2px solid black;
+     box-sizing: border-box;
+ }
+
+ /* Text-decoration property:- (none,overline,underline,line-through) */
+ .line {
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+ }
+
+ .none {
+     text-decoration: none;
+     width: 25%;
+ }
+
+ .overline {
+     text-decoration: overline;
+     width: 25%;
+ }
+
+ .line-through {
+     text-decoration: line-through;
+     width: 25%;
+ }
+
+ .underline {
+     text-decoration: underline;
+     width: 25%;
+ }
+
+ /* text-transform property:-(uppercase,lowercase,capitalize,none) */
+ .transform {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .uppercase {
+     text-transform: uppercase;
+ }
+
+ .lowercase {
+     text-transform: lowercase;
+ }
+
+ .capitalize {
+     text-transform: capitalize;
+ }
+
+ .transform-none {
+     text-transform: none;
+ }
+
+ /* word spacing property  */
+ .word-spacing {
+     word-spacing: 5px;
+ }
+
+ /* Letter spacing property */
+ .letter-spacing {
+     letter-spacing: 5px;
+ }
