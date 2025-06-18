@@ -14,19 +14,4 @@ This HTML file demonstrates how the CSS `!important` declaration overrides other
 3. **Background and Text Color Differences:**
    - Demonstrates class styles vs. tag styles vs. inline styles.
 
-## 📂 File Details
-
-- **Filename:** `imp-css.html`
-- **Background Color:** `beige` for entire page using the universal selector `*`.
-- **Text Examples:**
-  - Elements styled with class selectors.
-  - Elements overridden by tag selectors with `!important`.
-
-## 📸 Preview
-
-No external assets required. Just open the `imp-css.html` file in your browser to see how CSS priorities work.
-
----
-
-✅ Great for learning how and when to use `!important`.
 
