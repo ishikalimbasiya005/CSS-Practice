@@ -1,18 +1,33 @@
-# Types of CSS
+# 🎨 CSS Demo – Types of CSS
 
-This project shows 3 types of CSS:
+This project explains and demonstrates the **three types of CSS**:
 
-1. **Inline CSS** – Inside the tag using `style=""`  
-2. **Internal CSS** – Inside `<style>` tag in `<head>`  
-3. **External CSS** – In a separate `.css` file, linked with `<link>`
+---
 
-### Priority Order:
+## 📁 Files Used:
+
+- **`index.html`** – Contains the structure of the webpage and uses:
+  - Inline CSS
+  - Internal CSS
+  - Link to External CSS
+
+- **`style.css`** – Contains external CSS styles.
+
+---
+
+## 🧪 What You Learn:
+
+- How to use **Inline CSS** (`style=""` in tag)
+- How to use **Internal CSS** (`<style>` inside `<head>`)
+- How to use **External CSS** (`<link rel="stylesheet" href="style.css">`)
+- Priority of CSS types when used together
+
+---
+
+## ⚠️ Note:
+If all 3 types are used together, priority is:
 **Inline > Internal > External**
 
-📁 Files Used:
-index.html – Main HTML file
-style.css – External stylesheet
+---
 
-👉 Use only one type at a time by commenting out others if needed.
-
-Happy Coding! 🎨✨
+> 💡 Tip: Comment out other types to test one at a time.
